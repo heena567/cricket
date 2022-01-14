@@ -1,0 +1,16 @@
+.field{
+    border: 1px solid;
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    right: 500px;
+
+}
+.field:hover .bat{
+    transform: rotate(-30deg);
+    transform-origin: top right;
+}
